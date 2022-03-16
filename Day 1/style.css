@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(230, 243, 243);
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: aqua;
+  }
+a {
+  text-decoration: none;
+  color: rgb(0, 183, 255);
+}
+p {
+  text-align: center;
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+  font-size: 15px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 10px;
+  padding: 5px;
+}
+input[type="radio"] {
+  width: 100px;
+  height: 20px;
+}
+input[type="date"] {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+select {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  border:none;
+}
+
+
+img {
+  border-radius: 80%;
+  width: 150px;
+}
+button {
+  background-color: rgb(91, 198, 240);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}

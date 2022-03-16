@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Survey Data diri</title>
 </head>
 
@@ -16,13 +17,13 @@
         <hr />
         <form action="#">
             <label>Nama Depan</label><br />
-            <input type="text" id="fname" /><br />
+            <input type="text" id="fname" autocomplete="off"><br />
             <hr />
             <label>Nama Belakang</label><br />
-            <input type="text" id="lname" /><br />
+            <input type="text" id="lname" autocomplete="off"><br />
             <hr />
             <label>Alamat</label><br />
-            <input type="text" id="alamat" /><br />
+            <input type="text" id="alamat" autocomplete="off"><br />
             <hr />
             <label>Jenis Kelamin :</label><br /><br />
             <input type="radio" />
@@ -30,7 +31,7 @@
             <input type="radio" />
             <label>Wanita</label><br /><br />
             <hr />
-            <h3>Tanggal Lahir</h3>
+            <h4>Tanggal Lahir</h4>
             <input type="date" />
             <hr />
             <label for="cars">Hobi :</label><br />
@@ -41,6 +42,8 @@
                 <option>nyanyi</option>
             </select>
             <hr />
+            <h4>image</h4><br>
+            <img src="profile.jpg" alt=""><br><br>
             <button type="submit">Submit</button>
             <button type="reset">Reset</button>
         </form>
